@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="admin-style.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel - Rebecca Grant</h1>
+        <a href="../../index.html" style="position: absolute; top: 20px; right: 20px; color: white; text-decoration: none;">Logout</a>
+    </header>
+
+    <div class="admin-container">
+        <div class="form-container">
+            <h2>Add New Movie</h2>
+            <form id="add-movie-form">
+                <div>
+                    <label for="movie-name">Name:</label>
+                    <input type="text" id="movie-name" name="movie-name" required>
+                </div>
+                <div>
+                    <label for="movie-actors">Actors:</label>
+                    <input type="text" id="movie-actors" name="movie-actors" required>
+                </div>
+                <div>
+                    <label for="movie-director">Director:</label>
+                    <input type="text" id="movie-director" name="movie-director" required>
+                </div>
+                <div>
+                    <label for="movie-release-date">Release Date:</label>
+                    <input type="text" id="movie-release-date" name="movie-release-date" required>
+                </div>
+                <div>
+                    <label for="movie-run-time">Run Time:</label>
+                    <input type="text" id="movie-run-time" name="movie-run-time" required>
+                </div>
+                <div>
+                    <label for="movie-poster">Poster URL:</label>
+                    <input type="text" id="movie-poster" name="movie-poster" required>
+                </div>
+                <div>
+                    <button type="submit">Add Movie</button>
+                </div>
+            </form>
+        </div>
+        <div class="widget-container">
+            <iframe src="visitation.html" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Rebecca. Created with love and HTML.
+    </footer>
+
+    <script src="admin-script.js"></script>
+</body>
+</html>

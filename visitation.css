@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Light grey background for the page */
+    color: #000000; /* Black text color */
+}
+
+.counter-widget {
+    text-align: center;
+    background-color: #ffffff; /* White container background */
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+#visit-count {
+    font-weight: bold;
+}
+
+#reset-button {
+    padding: 5px 10px;
+    background-color: #1F456E; /* Blue button background */
+    color: #FFFFFF; /* White button text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+#reset-button:hover {
+    background-color: #163656; /* Darker blue on hover */
+}
